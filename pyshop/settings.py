@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/1.10/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.10/ref/settings/
 """
-
+import django_heroku
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -166,3 +166,6 @@ CKEDITOR_BROWSE_SHOW_DIRS = True
 
 # подключаем cryspy а перед эти  pip install django_crispy_forms
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
+
+#активация джанго-хироку
+django_heroku.settings(locals())
