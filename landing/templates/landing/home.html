@@ -528,30 +528,30 @@
 												<div class="row">
 													<div class="active-product-carosel">
 														<!-- Start Single-Product -->
-														 {% for product in products_images_electro %}
+														 {% for product in products_sony %}
 														<div class="col-xs-12">
 															<div class="single-product">
-																{% if product.product.new_product %}
+																{% if product.new_product %}
 																<div class="label_new">
 																	<span class="new">new</span>
 																</div>
                                                                 {% endif %}
-																{% if product.product.discount  %}
+																{% if product.discount  %}
 																<div class="sale-off">
-																	<span class="sale-percent">-{{product.product.discount}}%</span>
+																	<span class="sale-percent">-{{product.discount}}%</span>
 																</div>
 																{% endif %}
 																<div class="product-img">
-																	<a href="{% url 'product' product.product.id %}">
+																	<a href="{% url 'product' product.id %}">
 																		<img class="primary-img" src="{{ product.image.url }} "width="200" height="200" alt="Product">
 																		<img class="secondary-img" src="{% static 'img/product/mediam/12bg.jpg' %}" alt="Product">
 																	</a>
 																</div>
 																<div class="product-description">
-																	<h5><a href="#">{{ product.product.name }}</a></h5>
+																	<h5><a href="#">{{ product.name }}</a></h5>
 																	<div class="price-box">
-																		<span class="price">${{ product.product.price }}</span>
-																		<span class="old-price">${{ product.product.price_old }}</span>
+																		<span class="price">${{ product.price }}</span>
+																		<span class="old-price">${{ product.price_old }}</span>
 																	</div>
 																	<span class="rating">
 																		<i class="fa fa-star"></i>
