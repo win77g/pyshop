@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b1e24268-ada5-4baf-bd0d-617642b3b9f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/landing/templates/landing/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/landing/templates/landing/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="566" column="100" lean-forward="true" selection-start-line="566" selection-start-column="100" selection-end-line="566" selection-end-column="100" />
+            <state relative-caret-position="164">
+              <caret line="548" column="148" selection-start-line="548" selection-start-column="148" selection-end-line="548" selection-end-column="148" />
             </state>
           </provider>
         </entry>
@@ -330,12 +329,12 @@
       <workItem from="1546084883602" duration="15502000" />
       <workItem from="1546159422296" duration="3802000" />
       <workItem from="1546205166572" duration="1569000" />
-      <workItem from="1546263970557" duration="4681000" />
+      <workItem from="1546263970557" duration="5408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333705000" />
+    <option name="totallyTimeSpent" value="334432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="31" y="110" width="1386" height="648" extended-state="0" />
@@ -689,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/landing/templates/landing/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="566" column="100" lean-forward="true" selection-start-line="566" selection-start-column="100" selection-end-line="566" selection-end-column="100" />
+        <state relative-caret-position="164">
+          <caret line="548" column="148" selection-start-line="548" selection-start-column="148" selection-end-line="548" selection-end-column="148" />
         </state>
       </provider>
     </entry>

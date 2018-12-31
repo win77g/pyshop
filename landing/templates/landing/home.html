@@ -543,7 +543,11 @@
 																{% endif %}
 																<div class="product-img">
 																	<a href="{% url 'product' product.id %}">
-																		<img class="primary-img" src="{{ product.image.url }} "width="200" height="200" alt="Product">
+                                                                        {% if  product.image.url  %}
+																		<img class="primary-img" src="{{ product.image.url }}" width="200" height="200" alt="Product">
+                                                                        {% else %}
+                                                                            <img class="primary-img" src="{% static 'img/product/mediam/12bg.jpg' %}" width="200" height="200" alt="Product">
+                                                                        {% endif %}
 																		<img class="secondary-img" src="{% static 'img/product/mediam/12bg.jpg' %}" alt="Product">
 																	</a>
 																</div>
@@ -567,7 +571,7 @@
 																		<div class="product-button">
 {#																			<button><i class="fa fa-shopping-cart"></i> Add to Cart</button>#}
 {#                                                                            <input type="number"  placeholder="0" name="namber" id="namber" value="1"/>#}
-                                                                           <a href="/add_to_cart/{{ product.product_id }}" ><button type="submit" class="toch-button toch-add-cart-home btn-buy"
+                                                                           <a href="/add_to_cart/{{ product.id }}" ><button type="submit" class="toch-button toch-add-cart-home btn-buy"
 {#                                                                                           data-product_id = "{{ product.product.id }}"#}
 {#                                                                                           data-name = "{{ product.product.name }}"#}
 {#                                                                                           data-price = "{{ product.product.price }}"#}
@@ -577,10 +581,10 @@
 {#                                                                        </form>#}
 																		<div class="product-button-2">
                                                                             <form id="produc-modal" action="" method="post">{% csrf_token %}
-																			<a href="#" data-toggle="tooltip" title="Wishlist" id="product-wishlist" data-product_id = "{{ product.product_id }}" data.name = "{{ product.name }}"><i class="fa fa-heart-o"></i></a>
+																			<a href="#" data-toggle="tooltip" title="Wishlist" id="product-wishlist" data-product_id = "{{ product.id }}" data-name = "{{ product.name }}"><i class="fa fa-heart-o"></i></a>
 																			<a href="#" data-toggle="tooltip" title="Compare"><i class="fa fa-signal"></i></a>
 {#																			<a href="#" class="modal-view" data-toggle="modal" data-target="#productModal"><i class="fa fa-search-plus"></i></a>#}
-                                                                                <a href="#" data-toggle="tooltip" title="Посмотреть" id="product-view" data-product_id = "{{ product.product_id }}" ><i class="fa fa-search-plus"></i></a>
+                                                                                <a href="#" data-toggle="tooltip" title="Посмотреть" id="product-view" data-product_id = "{{ product.id }}" ><i class="fa fa-search-plus"></i></a>
                                                                             </form>
                                                                         </div>
 																	</div>
