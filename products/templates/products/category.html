@@ -180,7 +180,7 @@
 															<div class="col-md-9 col-sm-8 col-xs-12">
 																<div class="product-description">
 																	<h5><a href="#">{{ value.product.name }}</a></h5>
-																	<div class="price-box">
+                                                                    <div class="price-box">
 																		<span class="price">$99.00</span>
 																		<span class="old-price">$110.00</span>
 																	</div>
@@ -249,15 +249,18 @@
 																<span class="sale-percent">-55%</span>
 															</div>
 															<div class="product-img">
-																<a href="/product/{{ value.product.id }}">
-
+{#																<a href="/product/{{ value.product.id }}">#}
+{#                                                                heroku#}
+                                                                <a href="/product/{{ value.id }}">
 																	<img class="primary-img" src="{{ value.image.url }}" alt="Product">
 
 																	<img class="secondary-img" src="img/product/mediam/12bg.jpg" alt="Product">
 																</a>
 															</div>
 															<div class="product-description">
-																<h5><a href="#">{{ value.product.name }}</a></h5>
+{#																<h5><a href="#">{{ value.product.name }}</a></h5>#}
+{#                                                                 heroku#}
+                                                                <h5><a href="#">{{ value.name }}</a></h5>
 																<div class="price-box">
 																	<span class="price">$99.00</span>
 																	<span class="old-price">$110.00</span>
