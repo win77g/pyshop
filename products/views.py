@@ -23,7 +23,9 @@ def category(request,id ):
     # for att in dir(categ):
     #  print (att, getattr(categorys, att))
 
-    products_images = ProductImage.objects.filter(is_active=True, product__categ=categorys)
+    # products_images = ProductImage.objects.filter(is_active=True, product__categ=categorys)
+    # для heroku
+    products_images = Product.objects.filter(is_active=True, categ=categorys)
 
     page = request.GET.get('page',1)
     paginator = Paginator(products_images, 3)  # Show 25 contacts per page
