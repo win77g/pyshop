@@ -84,7 +84,7 @@ def order(request):
 def productview(request):
     data = request.POST
     product_id = data.get("product_id")
-    product = ProductImage.objects.filter(is_active=True,product__id=product_id)
+    product = Product.objects.filter(is_active=True,id=product_id)
     # for att in dir(product):
     #         print (att, getattr(product, att))
 
@@ -94,8 +94,8 @@ def productview(request):
 def wishlist(request):
     data = request.POST
     product_id = data.get("product_id")
-    product = ProductImage.objects.filter(is_active=True,product__id=product_id)
-    product_wish = Product.objects.get( id=product_id)
+    product = Product.objects.filter(is_active=True,id=product_id)
+    product_wish = Product.objects.get(id=product_id)
     user = request.user
     get_wishlest = Wishlist.objects.filter(user=user,product=product_wish)
     if not get_wishlest:

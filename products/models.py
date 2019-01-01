@@ -35,11 +35,16 @@ class ProductCategory(models.Model):
 #         return " %s" % self.name_subcategory
 #     class Meta:
 #         verbose_name = 'Подкатегория товара'
-#         verbose_name_plural = 'Подкатегория товаров'
+#         verbose_name_plural = 'Подкатегория товаров'_
+
+def image_folder(instance,filename):
+    filename = instance.slug +'.'+filename.split('.')[1]
+    return "{0}/{1}".format(instance.slug,filename)
 
 class Product(models.Model):
     name = models.CharField(max_length=120,blank=True, null=True, default=None)
-    # img = models.ForeignKey(productimage,blank=True, null=True, default=None)
+    image = models.ImageField(upload_to=image_folder, blank=True, null=True, default=None)
+    slug = models.SlugField(blank=True, null=True, default=None)
     price = models.DecimalField(max_digits=10, decimal_places=2, default=0)
     price_old = models.DecimalField(max_digits=10, decimal_places=2, default=0)
     description = RichTextUploadingField(config_name='default')
@@ -73,8 +78,8 @@ class ProductImage(models.Model):
     updated = models.DateTimeField(auto_now_add=False,auto_now=True)
 
     # вывод одного поля
-    def __str__(self):
-        return self.name
-    class Meta:
-        verbose_name = 'Фотография'
-        verbose_name_plural = 'Фотографии'
+    # def __str__(self):
+    #     return self.id
+    # class Meta:
+    #     verbose_name = 'Фотография'
+    #     verbose_name_plural = 'Фотографии'

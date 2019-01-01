@@ -9,12 +9,12 @@
 								</div><!-- .product-images -->
 
 								<div class="product-info">
-									<h1>{{ item.product.name }}</h1>
+									<h1>{{ item.name }}</h1>
 									<div class="price-box-3">
 										<hr />
 										<div class="s-price-box">
-											<span class="new-price">${{ item.product.price }}</span>
-											<span class="old-price">${{ item.product.price_old }}</span>
+											<span class="new-price">${{ item.price }}</span>
+											<span class="old-price">${{ item.price_old }}</span>
 										</div>
 										<hr />
 									</div>
@@ -36,7 +36,7 @@
 {#										 </form>#}
 									</div>
 									<div class="quick-desc">
-										 {{ item.product.description }}
+										 {{ item.description }}
 									</div>
 									<div class="social-sharing">
 										<div class="widget widget_socialsharing_widget">

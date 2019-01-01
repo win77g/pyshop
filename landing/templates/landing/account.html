@@ -76,7 +76,11 @@
 															<tbody>
 																<tr>
 																	<td class="text-center">
-																		<a href="#"><img src="{{ item.image.url }}" alt="#" /></a>
+                                                                        {% if item.product.image %}
+																		<a href="#"><img src="/media/{{ item.product.image }}" alt="#" width="100" height="100" /></a>
+                                                                        {% else %}
+                                                                        <a href="#"><img src="/media/no_foto.png" alt="#" width="100" height="100" /></a>
+                                                                        {% endif %}
 																	</td>
 																	<td class="text-left">
 																		<a href="#">{{ item.product.name }}</a>
