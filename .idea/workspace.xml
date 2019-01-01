@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1e24268-ada5-4baf-bd0d-617642b3b9f5" name="Default Changelist" comment="" />
+    <list default="true" id="b1e24268-ada5-4baf-bd0d-617642b3b9f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyshop/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="960">
@@ -61,6 +63,15 @@
               <folding>
                 <element signature="e#309#329#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/products/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -139,10 +150,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="101" />
-    <option name="y" value="35" />
-    <option name="width" value="1078" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="147" />
+    <option name="y" value="288" />
+    <option name="width" value="1206" />
     <option name="height" value="691" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -158,6 +169,11 @@
             <path>
               <item name="pyshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyshop" type="b2602c69:ProjectViewProjectNode" />
@@ -292,15 +308,16 @@
       <workItem from="1546338422084" duration="50000" />
       <workItem from="1546341513871" duration="184000" />
       <workItem from="1546349376218" duration="402000" />
-      <workItem from="1546364076589" duration="591000" />
+      <workItem from="1546364076589" duration="1002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337090000" />
+    <option name="totallyTimeSpent" value="337501000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="35" width="1078" height="691" extended-state="0" />
+    <frame x="147" y="288" width="1206" height="691" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -315,14 +332,14 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18604651" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18604651" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3291367" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32933652" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.27701375" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.16143106" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -593,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/orders/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4100">
@@ -652,6 +662,13 @@
           <folding>
             <element signature="e#309#329#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
         </state>
       </provider>
     </entry>
