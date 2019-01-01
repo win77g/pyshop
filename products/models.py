@@ -50,7 +50,7 @@ class Product(models.Model):
     description = RichTextUploadingField(config_name='default')
     description_short = RichTextUploadingField(config_name='default')
     discount = models.IntegerField(default=0)
-    category = models.ForeignKey(ProductCategory,blank=True, null=True, default=None )
+    # category = models.ForeignKey(ProductCategory,blank=True, null=True, default=None )
     categ = TreeForeignKey(Category, blank=True, null=True,related_name = 'cat')
     is_active = models.BooleanField(default=True)
     new_product = models.BooleanField(default=False)
