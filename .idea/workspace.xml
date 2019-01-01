@@ -70,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/products/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="46" column="66" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="66" />
+            <state relative-caret-position="80">
+              <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="46" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -308,12 +308,12 @@
       <workItem from="1546338422084" duration="50000" />
       <workItem from="1546341513871" duration="184000" />
       <workItem from="1546349376218" duration="402000" />
-      <workItem from="1546364076589" duration="1534000" />
+      <workItem from="1546364076589" duration="1826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338033000" />
+    <option name="totallyTimeSpent" value="338325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="106" y="16" width="1206" height="691" extended-state="0" />
@@ -667,8 +667,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/products/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="46" column="66" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="66" />
+        <state relative-caret-position="80">
+          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="46" selection-end-column="64" />
         </state>
       </provider>
     </entry>
