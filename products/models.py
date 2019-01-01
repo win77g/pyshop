@@ -44,7 +44,7 @@ def image_folder(instance,filename):
 class Product(models.Model):
     name = models.CharField(max_length=120,blank=True, null=True, default=None)
     # image = models.ImageField(upload_to=image_folder, blank=True, null=True, default=None)
-    # slug = models.SlugField(blank=True, null=True, default=None)
+    slug = models.SlugField(blank=True, null=True, default=None)
     price = models.DecimalField(max_digits=10, decimal_places=2, default=0)
     price_old = models.DecimalField(max_digits=10, decimal_places=2, default=0)
     description = RichTextUploadingField(config_name='default')
