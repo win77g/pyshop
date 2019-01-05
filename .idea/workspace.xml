@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1e24268-ada5-4baf-bd0d-617642b3b9f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/products/migrations/0013_auto_20181204_1805.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/migrations/0014_productsubcategory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/migrations/0015_auto_20181204_1822.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/migrations/0016_auto_20181204_1827.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/migrations/0017_auto_20181205_1607.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/migrations/0018_auto_20181205_1937.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/migrations/0019_categ.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/migrations/0020_auto_20181208_2010.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/migrations/0021_auto_20181209_0003.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/migrations/0022_product_categ.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/migrations/0023_category_slug.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/migrations/0024_auto_20181228_1516.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/migrations/0025_product_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/migrations/0026_product_slug.py" afterDir="false" />
-    </list>
+    <list default="true" id="b1e24268-ada5-4baf-bd0d-617642b3b9f5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,11 +157,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-133" />
-    <option name="y" value="14" />
-    <option name="width" value="807" />
-    <option name="height" value="691" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="394" />
+    <option name="y" value="9" />
+    <option name="width" value="801" />
+    <option name="height" value="751" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -338,15 +323,15 @@
       <workItem from="1546338422084" duration="50000" />
       <workItem from="1546341513871" duration="184000" />
       <workItem from="1546349376218" duration="402000" />
-      <workItem from="1546364076589" duration="9425000" />
+      <workItem from="1546364076589" duration="9837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="345924000" />
+    <option name="totallyTimeSpent" value="346336000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-133" y="14" width="807" height="691" extended-state="0" />
+    <frame x="322" y="39" width="807" height="691" extended-state="0" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
