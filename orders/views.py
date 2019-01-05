@@ -176,7 +176,7 @@ def checkout(request):
                     send_mail('Hello fromPrettyPrienteed',
                               'Hello there.This is an automated messege',
                               'sergsergio777@gmail.com',
-                              ['sergsergio777@gmail.com'],
+                              ['win21g@mail.com'],
                               fail_silently=True)
 
             return HttpResponseRedirect('/checkout/')
