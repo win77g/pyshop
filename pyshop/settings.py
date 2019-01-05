@@ -144,7 +144,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "static", "media")
 # Отправка почты
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = 'win21g'
-EMAIL_HOST_PASSWORD = '[hbcn.rnbveh2013'
+EMAIL_HOST_PASSWORD = 'nbveh[hbcn.r2013'
 EMAIL_PORT =  587
 EMAIL_USE_TLS = True
 # EMAIL_HOST_SSL = True

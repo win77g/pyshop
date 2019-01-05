@@ -58,11 +58,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyshop/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="149" column="23" lean-forward="true" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
+            <state relative-caret-position="160">
+              <caret line="146" column="39" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="39" />
               <folding>
                 <element signature="e#310#330#0" expanded="true" />
-                <marker date="1546714346462" expanded="true" signature="3690:3871" ph="..." />
+                <marker date="1546714624688" expanded="true" signature="3690:3853" ph="..." />
               </folding>
             </state>
           </provider>
@@ -165,8 +165,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="729" />
-    <option name="y" value="123" />
+    <option name="x" value="240" />
+    <option name="y" value="12" />
     <option name="width" value="1157" />
     <option name="height" value="691" />
   </component>
@@ -316,15 +316,15 @@
       <workItem from="1546349376218" duration="402000" />
       <workItem from="1546364076589" duration="9837000" />
       <workItem from="1546679650753" duration="4647000" />
-      <workItem from="1546702975546" duration="7519000" />
+      <workItem from="1546702975546" duration="7795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="358502000" />
+    <option name="totallyTimeSpent" value="358778000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="729" y="123" width="1157" height="691" extended-state="0" />
+    <frame x="240" y="12" width="1157" height="691" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -626,11 +626,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pyshop/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="149" column="23" lean-forward="true" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
+        <state relative-caret-position="160">
+          <caret line="146" column="39" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="39" />
           <folding>
             <element signature="e#310#330#0" expanded="true" />
-            <marker date="1546714346462" expanded="true" signature="3690:3871" ph="..." />
+            <marker date="1546714624688" expanded="true" signature="3690:3853" ph="..." />
           </folding>
         </state>
       </provider>
