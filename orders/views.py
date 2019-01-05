@@ -7,7 +7,7 @@ from django.contrib.auth.models import User
 from django.core.cache import cache
 from django.core.mail import send_mail
 from django.http import HttpResponse, HttpResponseRedirect
-
+import sendgrid
 
 # Create your views here.
 def basket_adding(request):
@@ -173,11 +173,18 @@ def checkout(request):
 
                     product_in_baskets.delete()
 
-                    send_mail('Hello fromPrettyPrienteed',
-                              'Hello there.This is an automated messege',
-                              'sergsergio777@gmail.com',
-                              ['win21g@mail.com'],
-                              fail_silently=True)
+                    # send_mail('Hello fromPrettyPrienteed',
+                    #           'Hello there.This is an automated messege',
+                    #           'sergsergio777@gmail.com',
+                    #           ['win21g@mail.com'],
+                    #           fail_silently=True)
+                    sg = sendgrid.SendGridAPIClient(apikey=os.environ.get('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'))
+                    from_email = Email("win21g@mail.ru")
+                    to_email = Email("win21g@mail.ru")
+                    subject = "Sending with SendGrid is Fun"
+                    content = Content("text/plain", "and easy to do anywhere, even with Python")
+                    mail = Mail(from_email, subject, to_email, content)
+                    response = sg.client.mail.send.post(request_body=mail.get())
 
             return HttpResponseRedirect('/checkout/')
         else:
