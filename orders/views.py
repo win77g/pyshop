@@ -7,7 +7,7 @@ from django.contrib.auth.models import User
 from django.core.cache import cache
 from django.core.mail import send_mail
 from django.http import HttpResponse, HttpResponseRedirect
-import sendgrid
+from sendgrid.helpers.mail import *
 
 # Create your views here.
 def basket_adding(request):
