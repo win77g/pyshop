@@ -12,11 +12,14 @@ class Category(MPTTModel):
 
     class MPTTMeta:
         order_insertion_by = ['name']
-
+def image_folder(instance,filename):
+    filename = instance.slug +'.'+filename.split('.')[1]
+    return "{0}/{1}".format(instance.slug,filename)
 
 # модель категории
 class ProductCategory(models.Model):
     name_category = models.CharField(max_length=120, blank=True, null=True, default=None)
+    image = models.ImageField(upload_to=image_folder, blank=True, null=True, default=None)
     is_active = models.BooleanField(default=True)
 
     def __str__(self):
