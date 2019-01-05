@@ -170,8 +170,8 @@ def checkout(request):
                                                  order = order
 
                     )
-                    send_mail('Hello fromPrettyPrienteed',
-                              'Hello there.This is an automated messege',
+                    send_mail('Интернет магазин всякой х-ни',
+                              'Ваш заказ принят,наберитесь терпения и ждите...',
                               'sergsergio777@gmail.com',
                               ['win21g@mail.ru'],
                               )
