@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1e24268-ada5-4baf-bd0d-617642b3b9f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/orders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="b1e24268-ada5-4baf-bd0d-617642b3b9f5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyshop/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="121">
@@ -68,11 +66,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orders/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="180" lean-forward="true" selection-start-line="180" selection-end-line="180" />
+            <state relative-caret-position="-3360">
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,8 +163,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="159" />
-    <option name="y" value="13" />
+    <option name="x" value="140" />
+    <option name="y" value="118" />
     <option name="width" value="1157" />
     <option name="height" value="691" />
   </component>
@@ -179,16 +180,6 @@
           <expand>
             <path>
               <item name="pyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="orders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyshop" type="462c0819:PsiDirectoryNode" />
               <item name="pyshop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -323,15 +314,15 @@
       <workItem from="1546349376218" duration="402000" />
       <workItem from="1546364076589" duration="9837000" />
       <workItem from="1546679650753" duration="4647000" />
-      <workItem from="1546702975546" duration="895000" />
+      <workItem from="1546702975546" duration="2100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="351878000" />
+    <option name="totallyTimeSpent" value="353083000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="159" y="13" width="1157" height="691" extended-state="0" />
+    <frame x="140" y="118" width="1157" height="691" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -621,6 +612,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/orders/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3360">
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pyshop/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -629,13 +630,6 @@
             <element signature="e#309#329#0" expanded="true" />
             <marker date="1546703159279" expanded="true" signature="3689:3857" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orders/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="180" lean-forward="true" selection-start-line="180" selection-end-line="180" />
         </state>
       </provider>
     </entry>

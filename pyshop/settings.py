@@ -142,7 +142,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "static", "media")
 
 # Отправка почты
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
+EMAIL_PORT =  465
 EMAIL_HOST_USER = 'sergsergio777@gmail.com'
 EMAIL_HOST_PASSWORD = 'marmon30'
 EMAIL_HOST_TLS = False
