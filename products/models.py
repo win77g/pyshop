@@ -3,15 +3,13 @@ from mptt.models import MPTTModel, TreeForeignKey
 from ckeditor_uploader.fields import RichTextUploadingField
 # import mptt
 
-def image_folder(instance,filename):
-    filename = instance.slug +'.'+filename.split('.')[1]
-    return "{0}/{1}".format(instance.slug,filename)
+
 
 class Category(MPTTModel):
     name = models.CharField(max_length=50, unique=True)
     parent = TreeForeignKey('self', null=True, blank=True, related_name='children',verbose_name="Родитель", db_index=True)
     slug = models.SlugField(verbose_name='Транслит', null = True)
-    image = models.ImageField(upload_to=image_folder, blank=True, null=True, default=None)
+
     def __str__(self):
         return " %s" % self.name
 
