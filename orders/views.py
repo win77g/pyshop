@@ -172,8 +172,8 @@ def checkout(request):
                     )
                     send_mail('Hello fromPrettyPrienteed',
                               'Hello there.This is an automated messege',
-                              'win21g@mail.ru',
-                              ['sergsergio777@gmail.com'],
+                              'sergsergio777@gmail.com',
+                              ['win21g@mail.ru'],
                               )
 
                     product_in_baskets.delete()
