@@ -142,11 +142,11 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "static", "media")
 
 # Отправка почты
-EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_PORT =  587
-EMAIL_HOST_USER = 'sergsergio777@gmail.com'
-EMAIL_HOST_PASSWORD = 'marmon30'
-EMAIL_USE_TLS = False
+EMAIL_HOST_USER = 'win21g'
+EMAIL_HOST_PASSWORD = '[hbcn.rnbveh2013'
+EMAIL_USE_TLS = True
 # EMAIL_HOST_SSL = True
 
 # Настройки ckeitor

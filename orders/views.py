@@ -174,7 +174,7 @@ def checkout(request):
                               'Hello there.This is an automated messege',
                               'sergsergio777@gmail.com',
                               ['win21g@mail.com'],
-                              fail_silently=True)
+                              )
 
                     product_in_baskets.delete()
 
