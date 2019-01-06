@@ -1,6 +1,7 @@
 from django import forms
 from .models import *
 from django.contrib.auth.models import User
+from django.contrib.auth import password_validation
 # from django.contrib.auth.forms import AuthenticationForm
 
 class SubscriberForm(forms.ModelForm):
@@ -78,4 +79,13 @@ class RegistrationForm(forms.ModelForm):
                                          'password_check': 'Вы ошиблись при вводе паролей, они не совпадают, введите повторно!'},
                 code='passwords do not match',)
 
-       
+    # Подключаем валидацию от джанго
+    def clean_password(self):
+        password = self.cleaned_data.get('password')
+        try:
+            password_validation.validate_password(password, self.instance)
+        except forms.ValidationError as error:
+
+            # Method inherited from BaseForm
+            self.add_error('password', error)
+        return password
