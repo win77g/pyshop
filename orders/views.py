@@ -145,6 +145,7 @@ def checkout(request):
             data = request.POST
             name = data.get("name", "serg")
             phone = data["phone"]
+            mail = data["email"]
             user, created = User.objects.get_or_create(username = name, defaults ={"first_name": name })
 
             order = Order.objects.create(user = user, customer_name = name,customer_tel = phone, status_id = 1)

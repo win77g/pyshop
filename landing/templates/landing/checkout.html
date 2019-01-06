@@ -59,6 +59,13 @@
                                              <input type="text" name="{{ form.phone.html_name }}" class="form-control"
                                                     value = "{{ request.POST.phone }}"
                                              >
+                                          <div class="form-group">
+                                             <label>E-mail</label>
+                                             <span class="form-error">{{ form.email.errors }}</span>
+                                             <input type="text" name="{{ form.email.html_name }}" class="form-control"
+                                                    value = "{{ request.POST.email }}"
+                                             >
+                                         </div>
                                          </div>
 													<div class="table-responsive">
 														<table class="table table-bordered table-hover">
