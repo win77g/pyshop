@@ -27,4 +27,6 @@ urlpatterns = [
     url(r'^productview', views.productview, name='productview'),
     url(r'^wishlist', views.wishlist, name='wishlist'),
     url(r'^delete_item_in_wishlist/(?P<product_id>\w+)/$',views.delete_item_in_wishlist, name='delete_item_in_wishlist'),
+    url(r'^activate/(?P<uidb64>[0-9A-Za-z_\-]+)/(?P<token>[0-9A-Za-z]{1,13}-[0-9A-Za-z]{1,20})/$',
+        views.activate, name='activate'),
 ]
