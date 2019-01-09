@@ -58,6 +58,7 @@ def register(request):
            'domain': current_site.domain,
            'uid': urlsafe_base64_encode(force_bytes(user.pk)),
            'token': account_activation_token.make_token(user),
+           'password':password
        })
        send_mail('Интернет магазин всякой х-ни',
                  message
