@@ -46,6 +46,7 @@ def register(request):
         # Cleaned(normalized) data
        username = form.cleaned_data['username']
        password = form.cleaned_data['password']
+       mail = form.cleaned_data['email']
 
        #  Use set_password here
        user.set_password(password)
@@ -64,7 +65,7 @@ def register(request):
                  message
                  ,
                  'sergsergio777@gmail.com',
-                 ['tek-shop@mail.ru'],
+                 [mail],
                  )
 
        return HttpResponseRedirect('/login/')
