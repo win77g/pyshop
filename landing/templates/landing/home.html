@@ -543,12 +543,13 @@
 																{% endif %}
 																<div class="product-img">
 																	<a href="{% url 'product' product.id %}">
-                                                                        {% if  product.image  %}
-																		<img class="primary-img" src="/media/{{ product.image }}" width="200" height="200" alt="Product">
-                                                                        {% else %}
-                                                                            <img class="primary-img" src="/media/no_foto.png" width="200" height="200" alt="Product">
-                                                                        {% endif %}
-{#																		<img class="secondary-img" src="{% static 'img/product/mediam/12bg.jpg' %}" alt="Product">#}
+                                                                        <img class="primary-img" src="/static/img/product/mediam/4bg.jpg" width="200" height="200" alt="Product">
+																		<!--{% if  product.image  %}-->
+																		<!--<img class="primary-img" src="/media/{{ product.image }}" width="200" height="200" alt="Product">-->
+                                                                        <!--{% else %}-->
+                                                                            <!--<img class="primary-img" src="/media/no_foto.png" width="200" height="200" alt="Product">-->
+                                                                        <!--{% endif %}-->
+<!--{#																		<img class="secondary-img" src="{% static 'img/product/mediam/12bg.jpg' %}" alt="Product">-->
 																	</a>
 																</div>
 																<div class="product-description">
