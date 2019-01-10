@@ -70,6 +70,14 @@ class Product(models.Model):
     class Meta:
         verbose_name = 'Продукт'
         verbose_name_plural = 'Продукты'
+     #добавим фото в админку
+    def image_img(self):
+        if self.image:
+            return u'<a href="{0}" target="_blank"><img src="{0}" width="100"/></a>'.format(self.image.url)
+        else:
+            return '(Нет изображения)'
+    image_img.short_description = 'Картинка'
+    image_img.allow_tags = True
 
 # фотки продукта
 class ProductImage(models.Model):
