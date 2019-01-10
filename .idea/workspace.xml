@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e24268-ada5-4baf-bd0d-617642b3b9f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/landing/templates/landing/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/templates/products/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/products.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +34,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/landing/templates/landing/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="331">
               <caret line="543" column="89" selection-start-line="543" selection-start-column="89" selection-end-line="543" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/products/templates/products/products.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="48" column="108" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
             </state>
           </provider>
         </entry>
@@ -85,7 +94,6 @@
         <option value="$PROJECT_DIR$/landing/templates/landing/login.html" />
         <option value="$PROJECT_DIR$/landing/templates/landing/register.html" />
         <option value="$PROJECT_DIR$/landing/templates/landing/top_basket.html" />
-        <option value="$PROJECT_DIR$/products/templates/products/products.html" />
         <option value="$PROJECT_DIR$/landing/templates/modal.html" />
         <option value="$PROJECT_DIR$/landing/templates/modal_order.html" />
         <option value="$PROJECT_DIR$/landing/templates/landing/left_sidebar_category_meny.html" />
@@ -117,12 +125,13 @@
         <option value="$PROJECT_DIR$/products/models.py" />
         <option value="$PROJECT_DIR$/products/admin.py" />
         <option value="$PROJECT_DIR$/landing/templates/landing/home.html" />
+        <option value="$PROJECT_DIR$/products/templates/products/products.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="127" />
-    <option name="y" value="21" />
+    <option name="x" value="270" />
+    <option name="y" value="91" />
     <option name="width" value="1157" />
     <option name="height" value="788" />
   </component>
@@ -157,6 +166,24 @@
               <item name="landing" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="landing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,7 +318,7 @@
     <option name="totallyTimeSpent" value="364927000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="127" y="21" width="1157" height="788" extended-state="0" />
+    <frame x="270" y="91" width="1157" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -315,7 +342,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32933652" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.06344951" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.042001788" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -356,13 +383,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/landing/static/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/landing/templates/landing/account.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1980">
@@ -609,6 +629,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="543" column="89" selection-start-line="543" selection-start-column="89" selection-end-line="543" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/templates/products/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="48" column="108" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
         </state>
       </provider>
     </entry>
