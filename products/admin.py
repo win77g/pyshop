@@ -39,10 +39,10 @@ class ProductImageInline(admin.TabularInline):
 # Register your models here.
 class ProductAdmin (admin.ModelAdmin):
    #  вывод всех полей в админку
-   #    list_display = [field.name for field in Product._meta.fields]
-   #    inlines = [ProductImageInline]
-   list_display = ['name','image_img', 'price', 'price_old','categ','is_active','new_product','top','created','updated']
-   readonly_fields = ['image_img',]
+      list_display = [field.name for field in Product._meta.fields]
+      inlines = [ProductImageInline]
+   # list_display = ['name','image_img', 'price', 'price_old','categ','is_active','new_product','top','created','updated']
+   # readonly_fields = ['image_img',]
 
 class Meta:
     model = Product
