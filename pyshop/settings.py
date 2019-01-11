@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'ckeditor',
     'ckeditor_uploader',
     'crispy_forms',
-    'storages'
+    # 'storages'
 ]
 
 MIDDLEWARE = [
@@ -176,10 +176,10 @@ CRISPY_TEMPLATE_PACK = 'bootstrap3'
 django_heroku.settings(locals())
 
 # Storage on Amazon-S3 settings are stored as os.environs to keep settings.py clean
-if not DEBUG:
-   AWS_STORAGE_BUCKET_NAME = os.environ['pyshop']
-   AWS_ACCESS_KEY_ID = os.environ['AKIAIM4N5A5ECAI7Y2QA']
-   AWS_SECRET_ACCESS_KEY = os.environ['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']
-   STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
-   S3_URL = 'http://%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
-   STATIC_URL = S3_URL
+# if not DEBUG:
+#    AWS_STORAGE_BUCKET_NAME = os.environ['pyshop']
+#    AWS_ACCESS_KEY_ID = os.environ['AKIAIM4N5A5ECAI7Y2QA']
+#    AWS_SECRET_ACCESS_KEY = os.environ['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']
+#    STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+#    S3_URL = 'http://%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
+#    STATIC_URL = S3_URL
