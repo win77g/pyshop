@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '5b8(9(wn84$*gfjs8st0=($eu(@j(y*11!gz*49@ly+12s6h6b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -48,7 +48,8 @@ INSTALLED_APPS = [
     'fontawesome',
     'ckeditor',
     'ckeditor_uploader',
-    'crispy_forms'
+    'crispy_forms',
+    'storages'
 ]
 
 MIDDLEWARE = [
@@ -172,3 +173,12 @@ CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 #активация джанго-хироку
 django_heroku.settings(locals())
+
+# Storage on Amazon-S3 settings are stored as os.environs to keep settings.py clean
+if not DEBUG:
+   AWS_STORAGE_BUCKET_NAME = os.environ['pyshop']
+   AWS_ACCESS_KEY_ID = os.environ['AKIAIM4N5A5ECAI7Y2QA']
+   AWS_SECRET_ACCESS_KEY = os.environ['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']
+   STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+   S3_URL = 'http://%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
+   STATIC_URL = S3_URL
