@@ -135,14 +135,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
-# STATIC_URL = '/static/'
-# STATICFILES_DIRS = (
-#   os.path.join(BASE_DIR, "static", "static_dev"),
-# )
-# STATIC_ROOT = os.path.join(BASE_DIR, "static", "static_prod")
+STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+  os.path.join(BASE_DIR, "static", "static_dev"),
+)
+STATIC_ROOT = os.path.join(BASE_DIR, "static", "static_prod")
 
-# MEDIA_URL = '/media/'
-# MEDIA_ROOT = os.path.join(BASE_DIR, "static", "media")
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, "static", "media")
 
 # Отправка почты
 EMAIL_HOST = 'smtp.sendgrid.net'
@@ -175,25 +175,5 @@ CRISPY_TEMPLATE_PACK = 'bootstrap3'
 #активация джанго-хироку
 django_heroku.settings(locals())
 
-# Storage on Amazon-S3 settings are stored as os.environs to keep settings.py clean
-# if not DEBUG:
-#    AWS_STORAGE_BUCKET_NAME = os.environ['pyshop']
-#    AWS_ACCESS_KEY_ID = os.environ['AKIAIM4N5A5ECAI7Y2QA']
-#    AWS_SECRET_ACCESS_KEY = os.environ['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']
-#    STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
-#    S3_URL = 'http://%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
-#    STATIC_URL = S3_URL
-AWS_ACCESS_KEY_ID = 'AKIAI2MXR5FT7IJQVQWQ'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'pyshop'
-AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
-AWS_S3_OBJECT_PARAMETERS = {
-    'CacheControl': 'max-age=86400',
-}
-AWS_LOCATION = 'static'
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static", "static_dev"),
-]
-STATIC_URL = 'https://%s/%s/' % (AWS_S3_CUSTOM_DOMAIN, AWS_LOCATION)
-STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
