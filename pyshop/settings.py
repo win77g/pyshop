@@ -139,14 +139,14 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
   os.path.join(BASE_DIR, "static", "static_dev"),
 )
-STATIC_ROOT = os.path.join(BASE_DIR, "static", "static_prod")
+STATIC_ROOT = os.path.join(BASE_DIR, "static/", "static_prod")
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "static", "media")
 
 # Отправка почты
 EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'win21g'
+EMAIL_HOST_USER = 'tek-shop@mail.ru'
 EMAIL_HOST_PASSWORD = 'nbveh[hbcn.r2013'
 EMAIL_PORT =  587
 EMAIL_USE_TLS = True

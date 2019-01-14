@@ -68,9 +68,12 @@ def register(request):
                  [mail],
                  )
 
-       return HttpResponseRedirect('/login/')
+       return HttpResponseRedirect('/alarm_register/')
    context = {'form' : form}
    return render(request, 'landing/register.html', context)
+
+def alarm_register(request):
+    return render(request, 'landing/alarm_register.html')
 
 #функция активации пользователя
 def activate(request, uidb64, token):
