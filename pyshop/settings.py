@@ -172,7 +172,7 @@ CKEDITOR_BROWSE_SHOW_DIRS = True
 # подключаем cryspy а перед эти  pip install django_crispy_forms
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
-#активация джанго-хироку
+# #активация джанго-хироку
 django_heroku.settings(locals())
 
 
